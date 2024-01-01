@@ -6,7 +6,7 @@
 * Use the repo https://github.com/lab176344/scikit-THI_CIAD to install the package to run RF similarity
 
 ## Dataset 
-Use the link bla bla to download the dataset and paste it under data/
+Use the link (https://1drv.ms/f/s!ArclEiu1Sj0Oj4YbmkAV56WFwsd08A?e=wwUmRO) to download the dataset and paste it under data/
 
 ## Running the experiments
 
