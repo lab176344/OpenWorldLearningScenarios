@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Sep  9 09:04:18 2020
-
-@author: carpc
-"""
 import math
 from functools import partial
 
@@ -225,7 +218,6 @@ class ResNet(nn.Module):
         x = self.avgpool(x)
 
         x = x.view(x.size(0), -1)
-        #x = F.relu(x) #add ReLU to benifit ranking
         out1 = self.head1(x)
         out2 = self.head2(x)
         return out1, out2, x
